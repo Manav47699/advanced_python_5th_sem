@@ -1,0 +1,7 @@
+# write a program to count the number of vowels in the given string. chalena!
+string = input("Enter a string.")
+count = 0
+for words in string:
+    if words == "a" or words == "e" or words == "i" or words == "o" or words == "u":
+        count = count + 1
+print (f"the total number of vowels in your string is = {count}")
